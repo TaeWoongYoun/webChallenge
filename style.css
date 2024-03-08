@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.headContainer{
+    width: 1320px;
+    height: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 270px;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav{
+    width: 850px;
+    height: 70px;
+}
+
+nav ul{
+    float: right;
+    width: 600px;
+    height: 100%;
+    display: flex;
+}
+
+nav ul li{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid lightblue;
+}
+
+.login{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login button{
+    width: 95px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: none;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background: lightblue;
+}
