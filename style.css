@@ -13,7 +13,22 @@ a{
     text-decoration: none;
 }
 
+/* 로고 영역 */
+.logo{
+    width: 270px;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* 헤더 영역 */
 header{
+    position: fixed;
+    z-index: 3;
     width: 100%;
     height: 70px;
     display: flex;
@@ -27,17 +42,7 @@ header{
     display: flex;
 }
 
-.logo{
-    width: 270px;
-    height: 100%;
-    font-size: 24px;
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
+/* 네비게이션 영역 */
 nav{
     width: 850px;
     height: 70px;
@@ -64,6 +69,7 @@ nav ul li:hover{
     border-bottom: 3px solid lightblue;
 }
 
+/* 로그인 및 회원가입 영역 */
 .login{
     width: 200px;
     height: 100%;
@@ -86,6 +92,7 @@ nav ul li:hover{
     background: lightblue;
 }
 
+/* 메인 컨텐츠 영역역 */
 .back{
     width: 100%;
     height: 1500px;
@@ -100,8 +107,106 @@ main{
     background-color: beige;
 }
 
+.window{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 500%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    animation: 16s infinite linear slide;
+} 
+
+.slide li{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.slide li img{
+    width: 100%;
+    height: 100%;
+}
+
+.textarea{
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    right: 0;
+}
+
+.textarea h2{
+    padding: 20px;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%;
+    }
+}
+
+/* 푸터 영역 */
 footer{
     width: 100%;
     height: 100px;
     background-color: #111;
+    display: flex;
+    justify-content: center;
+}
+
+.footContainer{
+    width: 1320px;
+    height: 100%;
+    display: flex;
+}
+
+/* 카피라이트 영역 */
+.copy{
+    width: 1150px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
 }
