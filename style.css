@@ -197,10 +197,21 @@ main{
 .content{
     width: 100%;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 게임 스케쥴 영역 */
-.calender{
+.information{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
     width: 400px;
     height: 600px;
     border-radius: 10px;
@@ -246,6 +257,41 @@ main{
     margin-top: 20px;
 }
 
+/* 게임 스케쥴 영역 */
+.calender{
+    width: 60%;
+    height: 100%;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: lightblue;
+}
+
+.blueday {
+    color: blue;
+}
+
+.redday{
+    color: red;
+}
 
 /* 푸터 영역 */
 footer{
