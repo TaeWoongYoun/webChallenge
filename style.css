@@ -63,6 +63,8 @@ nav ul li{
     justify-content: center;
     transition: border-bottom 0.3s;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 nav ul li:hover{
@@ -86,6 +88,7 @@ nav ul li:hover{
     background: none;
     transition: background 0.5s;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .login button:hover{
@@ -184,6 +187,7 @@ main{
         left: -400%;
     }
 }
+
 
 /* 푸터 영역 */
 footer{
