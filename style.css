@@ -99,7 +99,7 @@ nav ul li:hover{
     background: lightblue;
 }
 
-/* 메인 컨텐츠 영역역 */
+/* 메인 컨텐츠 영역 */
 .back{
     width: 100%;
     height: 1500px;
@@ -114,6 +114,7 @@ main{
     background-color: beige;
 }
 
+/* 비주얼 영역 */
 .window{
     width: 100%;
     height: 600px;
@@ -190,6 +191,59 @@ main{
     100%{
         left: -400%;
     }
+}
+
+/* 게임 스케쥴 및 인포메이션 영역 */
+.content{
+    width: 100%;
+    height: 700px;
+}
+
+/* 게임 스케쥴 영역 */
+.calender{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid lightblue;
+    background-color: aliceblue;
+}
+
+.imgBox{
+    width: 400px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.imgBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.textBox{
+    padding: 20px;
+}
+
+.textBox h2{
+    margin-top: 10px;
+}
+
+.textBox p{
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.textBox button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 20px;
 }
 
 
