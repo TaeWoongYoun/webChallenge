@@ -259,38 +259,22 @@ main{
 
 /* 게임 스케쥴 영역 */
 .calender{
-    width: 60%;
-    height: 100%;
+    width: 350px;
+    border: 1px solid black;
 }
 
-table {
-    width: 300px;
-    border-collapse: collapse;
-    margin: auto;
+.calender ul{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    font-size: 22px;
-    transition: all 0.3s;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-td:hover {
-    background-color: lightblue;
-}
-
-.blueday {
-    color: blue;
-}
-
-.redday{
-    color: red;
+.calender li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 푸터 영역 */
