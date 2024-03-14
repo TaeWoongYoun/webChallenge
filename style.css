@@ -195,16 +195,7 @@ main{
     }
 }
 
-/* 게임 스케쥴 및 인포메이션 영역 */
-.content{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* 게임 스케쥴 영역 */
+/* 인포메이션 영역*/
 .information{
     width: 100%;
     height: 500px;
