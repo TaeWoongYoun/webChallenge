@@ -91,62 +91,115 @@
             </div>
             <!-- 게임 스케쥴 영역 -->
             <div class="contentArea">
-                <div class="calender">
-                    <ul class="weeks">
-                        <li>Sun</li>
-                        <li>Mon</li>
-                        <li>Tue</li>
-                        <li>Wed</li>
-                        <li>Thu</li>
-                        <li>Fri</li>
-                        <li>Sat</li>
-                    </ul>
-                    <ul class="days">
-                        <li class="inactive">27</li>
-                        <li class="inactive">28</li>
-                        <li class="inactive">29</li>
-                        <li class="inactive">30</li>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                        <li>10</li>
-                        <li>11</li>
-                        <li>12</li>
-                        <li>13</li>
-                        <li>14</li>
-                        <li>15</li>
-                        <li>16</li>
-                        <li>17</li>
-                        <li>18</li>
-                        <li>19</li>
-                        <li>20</li>
-                        <li>21</li>
-                        <li>22</li>
-                        <li>23</li>
-                        <li>24</li>
-                        <li>25</li>
-                        <li>26</li>
-                        <li>27</li>
-                        <li>28</li>
-                        <li>29</li>
-                        <li>30</li>
-                        <li>31</li>
-                    </ul>
+                <div class="calenderArea">
+                    <div class="calender">
+                        <ul class="weeks">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                        </ul>
+                        <ul class="days">
+                            <li class="inactive">27</li>
+                            <li class="inactive">28</li>
+                            <li class="inactive">29</li>
+                            <li class="inactive">30</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li>30</li>
+                            <li>31</li>
+                        </ul>
+                    </div>
                 </div>
-                <!--  -->
+                <!-- 랭킹 영역 -->
                 <div class="ranking">
-                    <div class="league">
-                        
+                    <!-- 랭킹 영역의 리그 부분 -->
+                    <div class="leagueArea">
+                        <input type="radio" name="text" id="modal1">
+                        <input type="radio" name="text" id="modal2">
+                        <input type="radio" name="text" id="modal3">
+                        <input type="radio" name="text" id="modal4">
+                        <input type="radio" name="text" id="modal5">
+                        <input type="radio" name="text" id="modal6">
+                        <div class="league">
+                            <a href="#night">나이트리그</a>
+                            <a href="#week">주말리그</a>
+                            <a href="#dawn">새벽리그</a>
+                        </div>
+                        <div class="rank" id="night">
+                            <label for="modal1" class="openBtn"><p>투수순위</p></label>
+                            <label for="modal2" class="openBtn"><p>타자순위</p></label>
+                        </div>
+                        <div class="rank" id="week">
+                            <label for="modal3" class="openBtn"><p>투수순위</p></label>
+                            <label for="modal4" class="openBtn"><p>타자순위</p></label>
+                        </div>
+                        <div class="rank" id="dawn">
+                            <label for="modal5" class="openBtn"><p>투수순위</p></label>
+                            <label for="modal6" class="openBtn"><p>타자순위</p></label>
+                        </div>
+                        <div class="modalBox one">
+                            <div class="text">
+                                <p>나이트리그 투수순위</p>
+                            </div>
+                        </div>
+                        <div class="modalBox two">
+                            <div class="text">
+                                <p>나이트리그 타자순위</p>
+                            </div>
+                        </div>
+                        <div class="modalBox thr">
+                            <div class="text">
+                                <p>주말리그 투수순위</p>
+                            </div>
+                        </div>
+                        <div class="modalBox fou">
+                            <div class="text">
+                                <p>주말리그 타자순위</p>
+                            </div>
+                        </div>
+                        <div class="modalBox fiv">
+                            <div class="text">
+                                <p>새벽리그 투수순위</p>
+                            </div>
+                        </div>
+                        <div class="modalBox six">
+                            <div class="text">
+                                <p>새벽리그 타자순위</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="accordion">
-
-                    </div>
+                    
                 </div>
             </div>
         </main>
