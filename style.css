@@ -409,6 +409,29 @@ main{
     height: 120px;
 }
 
+/* 굿즈 영역 */
+.goods{
+    width: 100%;
+    height: 250px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.goods div{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.goods div img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
 /* 푸터 영역 */
 footer{
     width: 100%;
